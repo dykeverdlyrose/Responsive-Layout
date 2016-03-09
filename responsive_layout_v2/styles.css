@@ -1,0 +1,217 @@
+/* Global Layout Set-up */
+* { 
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+}
+
+p{
+	margin: 0px;
+}
+
+.banner-image img{
+	margin: 0px auto;
+	padding:5px;;
+	width: 100%;
+}
+.banner-summary{
+	text-align: center;
+	padding: 10px;
+	text-align:center;
+}
+.portfolio-cards{
+	background-color: white;
+}
+.cards{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.cards img {
+	width: 100%;
+}
+.student-name {
+	font-size: 0.95em;
+	margin: 10px;
+
+}
+.footer-student-name{
+	font-size: .75em;
+	margin: 10px;
+	float: left;
+}
+.back{
+	font-size: .75em;
+	margin: 10px;
+	float: right;
+}
+a{
+	text-decoration: none;
+	color: gray;
+}
+
+.main-nav{
+	display: block;
+	text-align: center;
+
+}
+
+/* This is for all the menu options collectively */
+ul {
+	padding: 20px;
+	list-style-type: none;
+}
+/* This is for each menu option */
+.nav{
+	margin: 0px;
+	
+}
+.nav li{
+	margin-top: 10px;
+	padding: 10px 20px;
+	background: white;	
+}
+.contact{
+	margin-top: 50px;
+}
+.footer-statement{
+	margin: 10px 0px;
+	padding:10px;
+	text-align: center;
+}
+.contact-information{
+	padding: 10px;
+	font-size: 0.75em;
+	text-align: center;
+	margin-bottom: 30px;
+	line-height: 50%;
+}
+.contact-information p{
+	padding: 10px;
+}
+.footer-nav-menu ul{
+	display: none;
+}
+.footer-nav{
+	border-top: 1px solid lightgray;
+	padding: 2px ;
+	margin-bottom: 0px;
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.footer-nav div{
+
+	display: inline-block;
+}
+.clearfix:after {
+	content:"";
+	clear: both;
+	display: table;
+}
+
+@media screen and (min-width: 480px){
+header{ 
+	max-height: 200px;
+}
+.banner-summary p {
+	max-height: 200px;
+	font-size: 0.85em;
+}
+.banner-image img {
+	max-height: 200px;
+}
+.cards p{
+	font-size: 0.85em;
+	overflow: hidden;
+	max-height: 60px;
+	text-align: center;
+}
+.cards h3{
+	color: gray;
+}
+.cards li   {	
+	
+		width: 50%;
+		float: left;
+		padding: 10px;
+
+}
+a{
+	text-decoration: none;
+	color: gray;
+}
+.main-nav li{
+	display: inline-block;
+	background: #f7f5f0;
+
+}	
+.portfolio-cards{
+	background-color: white;
+}
+header .banner-image{
+	float: right;
+	width: 40%;
+}
+header .banner-summary{
+	float: left;
+	width: 60%;
+}
+header{
+	margin-bottom: 10px;
+}
+.back a{
+	display: none;
+
+}
+.footer-nav div{
+	display: inline-block;
+}
+.footer-nav-menu{
+	float: right;
+}
+.footer-student-name{
+	margin: 0px;
+	font-size: .95em;
+	text-align: center;
+}
+.footer-nav-menu ul{
+	 
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+}
+.footer-nav-menu a {
+	color: black;
+}
+.footer-nav-menu li{
+	float: left;
+	padding: 0px 2px;
+	margin-right: 10px;
+	font-size: .95em;
+	font-weight: 500;
+
+}
+
+}
+@media screen and (min-width: 720px){
+.cards li   {	
+	
+		width: 33.333%;
+		float: left;
+		padding: 10px;
+
+}
+header{ 
+	height: 200px;
+}
+.banner-image img {
+	height: 200px;
+}
+}
+
